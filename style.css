@@ -1,4 +1,62 @@
 
+.button-general{
+    width: 40%;
+    height: 40%;
+    margin: 1%;
+    border: 2px dashed gray;
+    font-size: larger;
+    padding: 1%;
+    font-weight: bolder;
+}
+.right-btn{
+    right: 5%;
+    position: absolute;
+}
+
+.left-btn{
+    left: 5%;
+    position: absolute;
+}
+
+
+.buttons{
+    
+    bottom:5%;
+    height: 40%;
+    width: 100%;
+    border: 2px dashed gray;
+    position: absolute;
+    text-align: center;
+    
+}
+.button-group{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    display:inline-flex;
+}
+
+.box{
+    border: 1px solid black;
+}
+.image-area{
+    top:5%;
+    height: 50%;
+    width: 100%;
+    border: 2px dashed gray;
+    position: absolute;
+}
+#image-line{
+    width: 100px;
+    height: 100px;
+    border-right: 10px solid #78D333;
+    border-left: 10px solid #CF1F02;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
 #position-value{
     position: fixed;
     width: 200px;
