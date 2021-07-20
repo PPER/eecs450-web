@@ -1,0 +1,67 @@
+
+.button-general{
+    width: 40%;
+    height: 40%;
+    margin: 1%;
+    border: 2px dashed gray;
+    font-size: larger;
+    padding: 1%;
+    font-weight: bolder;
+}
+.right-btn{
+    right: 5%;
+    position: absolute;
+}
+
+.left-btn{
+    left: 5%;
+    position: absolute;
+}
+
+
+.buttons{
+    
+    height: 100%;
+    width: 100%;
+    
+
+}
+.button-area{
+    bottom:5%;
+    height: 35%;
+    width: 80%;
+    border: 2px dashed gray;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.button-group{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    display:inline-flex;
+}
+
+.box{
+    border: 1px solid black;
+}
+.image-area{
+    top: 5%;
+    height: 50%;
+    width: 80%;
+    border: 2px dashed gray;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+#image-line{
+    width: 80px;
+    height: 70px;
+    border-right: 15px solid #78D333;
+    border-left: 15px solid #CF1F02;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%) rotate(45deg); */
+}
