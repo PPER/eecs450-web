@@ -21,13 +21,19 @@
 
 .buttons{
     
-    bottom:5%;
-    height: 40%;
+    height: 100%;
     width: 100%;
-    border: 2px dashed gray;
-    position: absolute;
-    text-align: center;
     
+
+}
+.button-area{
+    bottom:5%;
+    height: 35%;
+    width: 80%;
+    border: 2px dashed gray;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0%);
 }
 .button-group{
     height: 40%;
@@ -40,21 +46,24 @@
     border: 1px solid black;
 }
 .image-area{
-    top:5%;
+    top: 5%;
     height: 50%;
-    width: 100%;
+    width: 80%;
     border: 2px dashed gray;
-    position: absolute;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0%);
 }
 #image-line{
-    width: 100px;
-    height: 100px;
-    border-right: 10px solid #78D333;
-    border-left: 10px solid #CF1F02;
+    width: 80px;
+    height: 70px;
+    border-right: 15px solid #78D333;
+    border-left: 15px solid #CF1F02;
     position:absolute;
     left:50%;
     top:50%;
-    transform: translate(-50%,-50%) rotate(45deg);
+    transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%) rotate(45deg); */
 }
 
 #position-value{
