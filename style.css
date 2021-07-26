@@ -63,16 +63,21 @@
     left: 50%;
     transform: translate(-50%,0%);
 }
-#image-line{
-    width: 85px;
-    height: 70px;
-    border-right: 15px solid #90ff3b;
-    border-left: 15px solid #CF1F02;
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
-    /* transform: translate(-50%,-50%) rotate(45deg); */
+#image-line-1{
+    width: 150px;
+    height: 2px;
+    background-color: #90ff3b;
+    position:relative;
+    left:  0;
+    top: 30px;
+}
+#image-line-2{
+    width: 150px;
+    height: 2px;
+    background-color: #CF1F02;
+    position:fixed;
+    right:0;
+    top: 30px;
 }
 
 #position-value{
