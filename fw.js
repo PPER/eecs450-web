@@ -1,6 +1,6 @@
 var distance = 85;
 var deg= 0;
-
+var p_wid=300;
 $(document).ready(function (){
     document.getElementById("closer").onclick=(function(){
         distance+= 5;
@@ -34,9 +34,9 @@ $(document).ready(function (){
     });
 
     document.getElementById("result").onclick=(function(){
-        var real_d = distance * 25.4 / 326;
+        var real_d = distance * p_wid / 300;
         document.getElementById("butons-list").style.display="none";
-        document.getElementById("resultarea").innerHTML = real_d+"<br>hhhhhh";
+        document.getElementById("resultarea").innerHTML = "Distance: "+ real_d;
         document.getElementById("resultarea").style.display="block";
     });
 
