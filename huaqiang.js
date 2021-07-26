@@ -1,32 +1,28 @@
 var distance = 85;
-var top1 = 60;
-var top2 = 60;
+var top1 = 100;
+var top2 = 100;
 var deg= 0;
 var p_wid=5.09;
 $(document).ready(function (){
     document.getElementById("closer").onclick=(function(){
-        top1+= 5;
-        top2-= 5;
+        top1+= 0.2;
+        top2-= 0.2;
         document.getElementById("image-line-1").style.top = top1 + "px";
         document.getElementById("image-line-2").style.top = top2 + "px";
     });
 
     document.getElementById("away").onclick=(function(){
-        top1-= 5;
-        top2+= 5;
+        top1-= 0.2;
+        top2+= 0.2;
         document.getElementById("image-line-1").style.top = top1 + "px";
         document.getElementById("image-line-2").style.top = top2 + "px";
     });
 
     document.getElementById("refresh").onclick=(function(){
-        distance= 85;
-        document.getElementById("image-line").style.width = distance + "px";
-        var div = document.getElementById('image-line');
-        div.style.webkitTransform = 'translate(-50%,-50%)';
-        div.style.mozTransform    = 'translate(-50%,-50%)';
-        div.style.msTransform     = 'translate(-50%,-50%)';
-        div.style.oTransform      = 'translate(-50%,-50%)';
-        div.style.transform       = 'translate(-50%,-50%)'; 
+        top1 = 100;
+        top2 = 100;
+        document.getElementById("image-line-1").style.top = 100 + "px";
+        document.getElementById("image-line-2").style.top = 100 + "px";
     });
     document.getElementById('next').onclick = (function() {
         var div = document.getElementById('image-line');
