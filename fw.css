@@ -2,11 +2,18 @@
 #result-area{
     border: 2px dashed gray;
     background-color:lightgray;
-    width: 100px;
+    width: 10cm;
     height: 100px;
     bottom: 0;
     right: 0;
     position: fixed;
+}
+#resultarea{
+    background-color: wheat;
+    font-size: 2rem;
+    padding: 3px;
+    display: none;
+
 }
 .small-btn{
     border: 2px dashed gray;
@@ -38,11 +45,14 @@
 
 
 .buttons{
-    
     height: 100%;
-    width: 100%;
-    
+    width: 100%; 
+    display: block;
+}
 
+.buttons-2{
+    height: 100%;
+    width: 100%; 
 }
 .button-area{
     bottom:5%;
