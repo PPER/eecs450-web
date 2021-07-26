@@ -33,7 +33,7 @@ $(document).ready(function (){
     });
 
     document.getElementById("result").onclick=(function(){
-        var real_d = distance * 25.4 / 428;
+        var real_d = distance * 25.4 / 326;
         document.getElementById("result-area").innerHTML = real_d + "mm";
     });
 })
