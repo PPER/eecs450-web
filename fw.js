@@ -1,6 +1,6 @@
 var distance = 85;
 var deg= 0;
-var p_wid=300;
+var p_wid=5.09;
 $(document).ready(function (){
     document.getElementById("closer").onclick=(function(){
         distance+= 5;
