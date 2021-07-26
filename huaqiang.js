@@ -36,7 +36,7 @@ $(document).ready(function (){
     });
 
     document.getElementById("result").onclick=(function(){
-        var real_d = distance * p_wid / 300;
+        var real_d = (top2-top1)* p_wid / 300;
         document.getElementById("butons-list").style.display="none";
         document.getElementById("resultarea").innerHTML = "Distance: "+ real_d;
         document.getElementById("resultarea").style.display="block";
