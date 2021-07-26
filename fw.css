@@ -1,13 +1,4 @@
 
-#result-area{
-    border: 2px dashed gray;
-    background-color:lightgray;
-    width: 10cm;
-    height: 100px;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-}
 #resultarea{
     background-color: wheat;
     font-size: 2rem;
@@ -57,7 +48,7 @@
 .button-area{
     bottom:5%;
     height: 35%;
-    width: 80%;
+    width: 300px;
     border: 2px dashed gray;
     position: fixed;
     left: 50%;
@@ -76,7 +67,7 @@
 .image-area{
     top: 5%;
     height: 50%;
-    width: 80%;
+    width: 300px;
     border: 2px dashed gray;
     position: fixed;
     left: 50%;
