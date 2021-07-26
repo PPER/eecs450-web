@@ -1,18 +1,18 @@
 #image-line-1{
     width: 50%;
-    height: 100px;
+    height: 40px;
     background-color: #90ff3b;
     position:relative;
     left:  0;
-    top: 60px;
+    top: 80px;
 }
 #image-line-2{
     width: 50%;
-    height: 100px;
+    height: 40px;
     background-color: #CF1F02;
     position:fixed;
     right:0;
-    top: 60px;
+    top: 80px;
 }
 #resultarea{
     background-color: wheat;
