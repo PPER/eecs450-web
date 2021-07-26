@@ -34,6 +34,6 @@ $(document).ready(function (){
 
     document.getElementById("result").onclick=(function(){
         var real_d = 100 * 25.4 / 326;
-        document.getElementById("result-area").innerHTML = real_d + "mm<br>" +document.getElementById("result-area").style.width;
+        document.getElementById("result-area").innerHTML = document.getElementById("result-area").style.width;
     });
 })
