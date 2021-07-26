@@ -31,4 +31,9 @@ $(document).ready(function (){
         div.style.oTransform      = 'translate(-50%,-50%) rotate('+deg+'deg)'; 
         div.style.transform       = 'translate(-50%,-50%) rotate('+deg+'deg)'; 
     });
+
+    document.getElementById("result").onclick=(function(){
+        var real_d = distance * 25.4 / 428;
+        document.getElementById("result-area").innerHTML = real_d + "mm";
+    });
 })

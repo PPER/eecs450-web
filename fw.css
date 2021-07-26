@@ -1,5 +1,13 @@
 
-
+#result-area{
+    border: 2px dashed gray;
+    background-color:lightgray;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
 .small-btn{
     border: 2px dashed gray;
     width: 50%;
