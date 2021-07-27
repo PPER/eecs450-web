@@ -4,7 +4,7 @@
     background-color: #90ff3b;
     position:relative;
     left:  0;
-    top: 80px;
+    top: 100px;
 }
 #image-line-2{
     width: 50%;
@@ -12,8 +12,11 @@
     background-color: #CF1F02;
     position:fixed;
     right:0;
-    top: 80px;
+    top: 100px;
 }
+
+
+
 #resultarea{
     background-color: wheat;
     font-size: 2rem;
