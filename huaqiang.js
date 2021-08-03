@@ -1,6 +1,6 @@
 var distance = 85;
-var top1 = 100;
-var top2 = 100;
+var top1 = 140;
+var top2 = 140;
 var deg= 0;
 var p_wid=5.09;
 $(document).ready(function (){
@@ -19,10 +19,10 @@ $(document).ready(function (){
     });
 
     document.getElementById("refresh").onclick=(function(){
-        top1 = 100;
-        top2 = 100;
-        document.getElementById("image-line-1").style.top = 100 + "px";
-        document.getElementById("image-line-2").style.top = 100 + "px";
+        top1 = 140;
+        top2 = 140;
+        document.getElementById("image-line-1").style.top = 140 + "px";
+        document.getElementById("image-line-2").style.top = 140 + "px";
     });
     document.getElementById("result").onclick=(function(){
         var real_d = - (top2-top1)* p_wid / 300;

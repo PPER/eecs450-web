@@ -1,18 +1,18 @@
 #image-line-1{
     width: 50%;
-    height: 120px;
+    height: 100px;
     background-color: #90ff3b;
     position:relative;
     left:  0;
-    top: 100px;
+    top: 140px;
 }
 #image-line-2{
     width: 50%;
-    height: 120px;
+    height: 100px;
     background-color: #CF1F02;
     position:fixed;
     right:0;
-    top: 100px;
+    top: 140px;
 }
 
 
