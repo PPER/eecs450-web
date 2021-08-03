@@ -24,19 +24,8 @@ $(document).ready(function (){
         document.getElementById("image-line-1").style.top = 100 + "px";
         document.getElementById("image-line-2").style.top = 100 + "px";
     });
-    document.getElementById('next').onclick = (function() {
-        var div = document.getElementById('image-line');
-        deg += 30;
-    
-        div.style.webkitTransform = 'translate(-50%,-50%) rotate('+deg+'deg)'; 
-        div.style.mozTransform    = 'translate(-50%,-50%) rotate('+deg+'deg)'; 
-        div.style.msTransform     = 'translate(-50%,-50%) rotate('+deg+'deg)'; 
-        div.style.oTransform      = 'translate(-50%,-50%) rotate('+deg+'deg)'; 
-        div.style.transform       = 'translate(-50%,-50%) rotate('+deg+'deg)'; 
-    });
-
     document.getElementById("result").onclick=(function(){
-        var real_d = (top2-top1)* p_wid / 300;
+        var real_d = - (top2-top1)* p_wid / 300;
         document.getElementById("butons-list").style.display="none";
         document.getElementById("resultarea").innerHTML = "Distance: "+ real_d;
         document.getElementById("resultarea").style.display="block";
