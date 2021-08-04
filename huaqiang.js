@@ -26,8 +26,12 @@ $(document).ready(function (){
     });
     document.getElementById("result").onclick=(function(){
         var real_d = - (top2-top1)* p_wid / 300;
+        var a=1.729;
+        var t=15;
+        var f=105;
+        var diopter = 1000/(a*f+t*(a-9.174*real_d))*(a-9.174*real_d);
         document.getElementById("butons-list").style.display="none";
-        document.getElementById("resultarea").innerHTML = "Distance: "+ real_d;
+        document.getElementById("resultarea").innerHTML = "Diopter "+ diopter;
         document.getElementById("resultarea").style.display="block";
     });
 
